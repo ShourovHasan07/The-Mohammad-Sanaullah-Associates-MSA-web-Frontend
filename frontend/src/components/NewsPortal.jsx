@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 const BreakingNews = () => {
   const [news, setNews] = useState([
     "🔴 Breaking: Our office will be closed on Friday and Saturday.",
-    "🗓️ Working Day: Our office working days are from Monday to Thursday.",
+    "🗓️ Working Day: Our office working days are from Sunday to Thursday.",
     "🗓️ Office Time : 9 AM  - 4 PM  ",
   ]);
 
@@ -12,7 +12,7 @@ const BreakingNews = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentNewsIndex((prevIndex) => (prevIndex + 1) % news.length);
-    }, 10000); // Change news every 7 seconds
+    }, 3000); // Change news every 7 seconds
 
     return () => clearInterval(interval);
   }, [news.length]);

@@ -1,4 +1,5 @@
 import React from 'react';
+import { TbWorld } from "react-icons/tb";
 import { FaRegCheckCircle } from 'react-icons/fa'; // Importing React icon
 
 const Experience = () => {
@@ -66,9 +67,13 @@ const Experience = () => {
 
           <div className="bg-white shadow-lg rounded-lg p-6 col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <FaRegCheckCircle className="text-green-500 text-xl" />
+            <TbWorld className="text-green-500 text-6xl" />
+
               <h3 className="text-xl font-semibold text-gray-800">Global Clients</h3>
             </div>
+
+            
+
             <p className="text-gray-600">We proudly serve clients from a variety of industries and scales around the world.</p>
           </div>
         </div>
