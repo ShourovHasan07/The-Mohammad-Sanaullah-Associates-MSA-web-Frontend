@@ -1,9 +1,38 @@
 import React from 'react'
 
+
+import Header from './../components/Header';
+
+import NewsPortal from "../components/NewsPortal"
+import Testimonial from '../components/TestimoNiyal';
+import ClientLogo from '../components/ClintLogo';
+import ContactUs from '../components/ontactFrom';
+import Experience from '../components/Experience';
+
+
 const Home = () => {
   return (
     <div>
-      this is home page 
+
+
+  
+     
+ <Header></Header>
+
+ <NewsPortal></NewsPortal>
+ 
+
+ <Experience></Experience>
+
+ 
+
+ <Testimonial ></Testimonial>
+ <ClientLogo></ClientLogo>
+
+ <ContactUs></ContactUs>
+
+ 
+
       
     </div>
   )
