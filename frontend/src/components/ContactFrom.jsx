@@ -6,15 +6,15 @@ import { useState } from 'react';
 const contactInfoList = [
 	{
 		icon: faEnvelopeOpenText,
-		label: "email@easyfrontend.com",
-		href: "mailto:email@easyfrontend.com",
+		label: "sanaullahfcs@gmail.com",
+		href: "sanaullahfcs@gmail.com",
 	},
 	{
 		icon: faPhoneAlt,
-		label: "+880 1742-0****0",
+		label: "0 1713 380038",
 		href: "callto:+880 1742-0****0",
 	},
-	{ icon: faHdd, label: "easyfrontend.com", href: "easyfrontend.com" },
+	
 ];
 
 const ContactForm = () => {

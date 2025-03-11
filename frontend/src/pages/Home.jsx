@@ -6,7 +6,7 @@ import Header from './../components/Header';
 import NewsPortal from "../components/NewsPortal"
 import Testimonial from '../components/TestimoNiyal';
 import ClientLogo from '../components/ClintLogo';
-import ContactUs from '../components/ontactFrom';
+import ContactUs from '../components/ContactFrom';
 import Experience from '../components/Experience';
 
 

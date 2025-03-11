@@ -12,7 +12,7 @@ const BreakingNews = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentNewsIndex((prevIndex) => (prevIndex + 1) % news.length);
-    }, 3000); // Change news every 7 seconds
+    }, 7000); // Change news every 7 seconds
 
     return () => clearInterval(interval);
   }, [news.length]);

@@ -34,6 +34,14 @@ const NavBar = () => {
                <li className="py-1 text-xl font-semibold">Contact</li>
                <hr className='border-non outline-none h-0.5 bg-blue-500 w-3/5 m-auto hidden' />
             </NavLink>
+            <NavLink to={"/team"}>
+               <li className="py-1 text-xl font-semibold">Our Team</li>
+               <hr className='border-non outline-none h-0.5 bg-blue-500 w-3/5 m-auto hidden' />
+            </NavLink>
+            <NavLink to={"/client"}>
+               <li className="py-1 text-xl font-semibold"> Clients </li>
+               <hr className='border-non outline-none h-0.5 bg-blue-500 w-3/5 m-auto hidden' />
+            </NavLink>
          </ul>
 
          {/* Create Account button or profile picture */}

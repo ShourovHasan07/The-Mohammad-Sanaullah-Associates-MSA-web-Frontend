@@ -29,10 +29,17 @@ const Footer = () => {
 
         {/* Right Section */}
         <div>
+        
+
+
+
+
+
           <h3 className="text-lg font-semibold mb-4 text-gray-900">GET IN TOUCH</h3>
           <ul className="space-y-2 text-gray-600">
             <li>📞 01728619254</li>
             <li>📧 shourovhasan001@gmail.com</li>
+            
           </ul>
 
           {/* Social Media Links */}
